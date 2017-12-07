@@ -1,0 +1,28 @@
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin-top: 60px;
+    color: grey;
+    align-items: center;
+    nav {
+      display: flex;
+      text-transform: uppercase;
+      padding: 10px;
+      align-items: center;
+      ul {
+        display: flex;
+        li {
+          padding: 3px;
+        }
+      }
+      .logo {
+        margin-left: 50px;
+      }
+    }
+  }
+}

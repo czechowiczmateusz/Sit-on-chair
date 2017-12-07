@@ -1,0 +1,78 @@
+.contact {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    width: 1050px;
+    input[type=text], input[type=email], textarea {
+      width: 635px;
+      height: 60px;
+      font-size: 40px;
+      padding: 10px;
+      border: 1px solid #1fb99a;
+      margin-top: 20px;
+    }
+    textarea {
+      height: 185px;
+    }
+    input[type=checkbox] {
+      width: 50px;
+      height: 50px;
+
+    }
+    input[type=checkbox]:checked {
+      width: 50px;
+      height: 50px;
+    }
+    .send {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 264px;
+        margin-bottom: 20px;
+      }
+      .check {
+        display: flex;
+        align-items: center;
+        color: grey;
+        font-size: 20px;
+        padding: 23px;
+        p {
+          padding-left: 10px;
+        }
+      }
+      button {
+        background-color: #1fb99a;
+        color: white;
+        height: 70px;
+        width: 340px;
+        text-align: center;
+        border: none;
+        text-transform: uppercase;
+        font-size: 30px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+.ct {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  div {
+    width: 1050px;
+    margin-top: 20px;
+    font-size: 20px;
+    div {
+      border-bottom: 7px solid #22cdab;
+      width: 325px;
+    }
+  }
+}
