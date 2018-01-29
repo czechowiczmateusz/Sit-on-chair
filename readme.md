@@ -10,4 +10,4 @@ My first website created on Coder's Lab course.
 
 ## Demo
 
-* https://github.com/czechowiczmateusz/Sit-on-chair
+* https://czechowiczmateusz.github.io/Sit-on-chair/
