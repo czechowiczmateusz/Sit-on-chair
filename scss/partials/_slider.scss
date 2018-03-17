@@ -11,6 +11,10 @@
       font-size: 70px;
       color: #1fb99a;
       cursor: pointer;
+      @media only screen and (max-width: 1050px) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
     .slider-pic {
       width: 500px;

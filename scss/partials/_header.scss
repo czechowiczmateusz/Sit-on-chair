@@ -11,6 +11,10 @@ header {
     align-items: center;
     text-transform: uppercase;
     font-size: 14px;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
     .logo {
       span {
         color: #1fb99a;

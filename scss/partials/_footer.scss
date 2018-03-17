@@ -9,6 +9,10 @@ footer {
     margin-top: 60px;
     color: grey;
     align-items: center;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
     nav {
       display: flex;
       text-transform: uppercase;
